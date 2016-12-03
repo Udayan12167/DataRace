@@ -1,0 +1,53 @@
+mov esi, dword ptr [rdi+0x10]
+mov rdx, rdi
+mov eax, esi
+mov r8d, esi
+and eax, 0x17f
+and r8d, 0x7c
+jnz 0x7f6eb5acf7e8
+test eax, eax
+jnz 0x7f6eb5acf7f2
+mov dword ptr [rdx+0x8], 0x0
+sub dword ptr [rdx+0xc], 0x1
+and esi, 0x80
+lock dec dword ptr [rdx]
+jnz 0x7f6eb5acf885
+mov eax, r8d
+ret 
+mov esi, dword ptr [rdi+0x10]
+mov rdx, rdi
+mov eax, esi
+mov r8d, esi
+and eax, 0x17f
+and r8d, 0x7c
+jnz 0x7f6eb5acf7e8
+test eax, eax
+jnz 0x7f6eb5acf7f2
+mov dword ptr [rdx+0x8], 0x0
+sub dword ptr [rdx+0xc], 0x1
+and esi, 0x80
+lock dec dword ptr [rdx]
+jnz 0x7f6eb5acf885
+cmp eax, 0x100
+jnz 0x7f6eb5acf804
+and esi, 0x80
+jmp 0x7f6eb5ad5fb0
+mov ecx, esi
+and ecx, 0x7f
+cmp ecx, 0x1
+jnz 0x7f6eb5acf823
+mov eax, dword ptr fs:[0x2d0]
+cmp dword ptr [rdi+0x8], eax
+jz 0x7f6eb5acf842
+mov r8d, 0x1
+jmp 0x7f6eb5acf7e4
+sub dword ptr [rdi+0x4], 0x1
+jz 0x7f6eb5acf7ca
+jmp 0x7f6eb5acf7e4
+mov dword ptr [rdx+0x8], 0x0
+sub dword ptr [rdx+0xc], 0x1
+and esi, 0x80
+lock dec dword ptr [rdx]
+jnz 0x7f6eb5acf885
+mov eax, r8d
+ret 

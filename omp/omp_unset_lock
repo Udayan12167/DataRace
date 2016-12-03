@@ -1,0 +1,5 @@
+xor eax, eax
+xchg dword ptr [rdi], eax
+test eax, eax
+js 0x7fc65f1ae1da
+ret 

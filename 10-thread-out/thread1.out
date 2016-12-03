@@ -1,0 +1,265 @@
+**************************
+lock xchg dword ptr [rdi+0x1c], eax
+_dl_rtld_di_serinfo
+139759955547932(Before): 1
+**************************
+lock xchg dword ptr [rdi+0x1c], eax
+_dl_rtld_di_serinfo
+10: 0
+**************************
+lock xchg dword ptr [rdi+0x1c], eax
+_dl_rtld_di_serinfo
+139759955547932(After): 0
+**************************
+lock xchg dword ptr [rdi+0x61c], eax
+start_thread
+139759955549468(Before): 4294967295
+**************************
+lock xchg dword ptr [rdi+0x61c], eax
+start_thread
+10: 0
+**************************
+lock xchg dword ptr [rdi+0x61c], eax
+start_thread
+139759955549468(After): 0
+**************************
+lock xchg dword ptr [r13+0x1c], eax
+_dl_rtld_di_serinfo
+139759955547932(Before): 1
+**************************
+lock xchg dword ptr [r13+0x1c], eax
+_dl_rtld_di_serinfo
+10: 0
+**************************
+lock xchg dword ptr [r13+0x1c], eax
+_dl_rtld_di_serinfo
+139759955547932(After): 0
+**************************
+jz 0x23488
+139759955547932(Before): 1
+**************************
+jz 0x23488
+10: 0
+**************************
+jz 0x23488
+139759955547932(After): 0
+**************************
+lock cmpxchg dword ptr [r8], r13d
+pthread_mutex_lock
+6295712(Before): 0
+**************************
+lock cmpxchg dword ptr [r8], r13d
+pthread_mutex_lock
+10: 0
+**************************
+lock cmpxchg dword ptr [r8], r13d
+pthread_mutex_lock
+6295712(After): 1
+Lock Detected
+lock cmpxchg dword ptr [r8], r13d
+**************************
+mov qword ptr [r15+0x70], r11
+139759955547932(Before): 1
+**************************
+mov qword ptr [r15+0x70], r11
+10: 0
+**************************
+mov qword ptr [r15+0x70], r11
+139759955547932(After): 0
+**************************
+lock cmpxchg dword ptr [rdx], esi
+_IO_vfprintf
+139759962716640(Before): 0
+**************************
+lock cmpxchg dword ptr [rdx], esi
+_IO_vfprintf
+10: 0
+**************************
+lock cmpxchg dword ptr [rdx], esi
+_IO_vfprintf
+139759962716640(After): 1
+Lock Detected
+lock cmpxchg dword ptr [rdx], esi
+**************************
+lock cmpxchg dword ptr [rdi+0x308], r14d
+pthread_setcanceltype
+139759955548680(Before): 0
+**************************
+lock cmpxchg dword ptr [rdi+0x308], r14d
+pthread_setcanceltype
+10: 0
+**************************
+lock cmpxchg dword ptr [rdi+0x308], r14d
+pthread_setcanceltype
+139759955548680(After): 2
+**************************
+lock cmpxchg dword ptr [rdi+0x308], r14d
+pthread_setcanceltype
+139759955548680(Before): 2
+**************************
+lock cmpxchg dword ptr [rdi+0x308], r14d
+pthread_setcanceltype
+10: 2
+**************************
+lock cmpxchg dword ptr [rdi+0x308], r14d
+pthread_setcanceltype
+139759955548680(After): 0
+**************************
+call r11
+139759955548680(Before): 0
+**************************
+call r11
+10: 0
+**************************
+call r11
+139759955548680(After): 2
+**************************
+mov r10, rcx
+139759955548680(Before): 2
+**************************
+mov r10, rcx
+10: 2
+**************************
+mov r10, rcx
+139759955548680(After): 0
+**************************
+lock dec dword ptr [r12]
+_IO_vfprintf
+139759962716640(Before): 1
+**************************
+lock dec dword ptr [r12]
+_IO_vfprintf
+139759962716640(After): 0
+Unlocked
+lock dec dword ptr [r12]
+**************************
+jz 0x18608
+139759962716640(Before): 0
+**************************
+jz 0x18608
+10: 0
+**************************
+jz 0x18608
+139759962716640(After): 1
+**************************
+call r11
+139759955548680(Before): 0
+**************************
+call r11
+10: 0
+**************************
+call r11
+139759955548680(After): 2
+**************************
+call r11
+139759955548680(Before): 2
+**************************
+call r11
+10: 2
+**************************
+call r11
+139759955548680(After): 0
+**************************
+call r11
+139759955548680(Before): 0
+**************************
+call r11
+10: 0
+**************************
+call r11
+139759955548680(After): 2
+**************************
+call r11
+139759955548680(Before): 2
+**************************
+call r11
+10: 2
+**************************
+call r11
+139759955548680(After): 0
+**************************
+mov word ptr [r15+0xd8], ax
+139759962716640(Before): 1
+**************************
+mov word ptr [r15+0xd8], ax
+139759962716640(After): 0
+Unlocked
+mov word ptr [r15+0xd8], ax
+**************************
+mov r10, rsi
+139759955547932(Before): 1
+**************************
+mov r10, rsi
+10: 0
+**************************
+mov r10, rsi
+139759955547932(After): 0
+**************************
+lock dec dword ptr [rdx]
+__pthread_mutex_unlock
+6295712(Before): 2
+**************************
+lock dec dword ptr [rdx]
+__pthread_mutex_unlock
+6295712(After): 1
+**************************
+mov rdx, 0x4
+139759955547932(Before): 1
+**************************
+mov rdx, 0x4
+10: 0
+**************************
+mov rdx, 0x4
+139759955547932(After): 0
+**************************
+mov rdx, 0x4
+139759955547932(Before): 1
+**************************
+mov rdx, 0x4
+10: 0
+**************************
+mov rdx, 0x4
+139759955547932(After): 0
+**************************
+mov rdx, 0x4
+139759955547932(Before): 1
+**************************
+mov rdx, 0x4
+10: 0
+**************************
+mov rdx, 0x4
+139759955547932(After): 0
+**************************
+mov word ptr [r15+0xd8], ax
+139759955547932(Before): 1
+**************************
+mov word ptr [r15+0xd8], ax
+10: 0
+**************************
+mov word ptr [r15+0xd8], ax
+139759955547932(After): 0
+**************************
+lock dec dword ptr [rdi]
+start_thread
+139759965123200(Before): 11
+**************************
+lock dec dword ptr [rdi]
+start_thread
+139759965123200(After): 10
+**************************
+lock or dword ptr [rdi+0x308], 0x10
+start_thread
+139759955548680(Before): 0
+**************************
+lock or dword ptr [rdi+0x308], 0x10
+start_thread
+139759955548680(After): 16
+**************************
+mov word ptr [r15+0xd8], ax
+139759955547932(Before): 1
+**************************
+mov word ptr [r15+0xd8], ax
+10: 0
+**************************
+mov word ptr [r15+0xd8], ax
+139759955547932(After): 0

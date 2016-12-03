@@ -1,0 +1,64 @@
+sub rsp, 0x8
+mov esi, dword ptr [rdi+0x10]
+mov r8, rdi
+mov eax, esi
+mov edx, esi
+and eax, 0x17f
+and edx, 0x7c
+jnz 0x7f993e7874eb
+test eax, eax
+jnz 0x7f993e7874a0
+mov edx, dword ptr [rip+0x2130ee]
+test edx, edx
+jz 0x7f993e787468
+and esi, 0x80
+mov edi, 0x1
+xor eax, eax
+lock cmpxchg dword ptr [r8], edi
+jnz 0x7f993e787648
+mov eax, dword ptr [r8+0x8]
+test eax, eax
+jnz 0x7f993e7874f1
+mov eax, dword ptr fs:[0x2d0]
+add dword ptr [r8+0xc], 0x1
+mov dword ptr [r8+0x8], eax
+xor eax, eax
+add rsp, 0x8
+ret 
+sub rsp, 0x8
+mov esi, dword ptr [rdi+0x10]
+mov r8, rdi
+mov eax, esi
+mov edx, esi
+and eax, 0x17f
+and edx, 0x7c
+jnz 0x7f993e7874eb
+test eax, eax
+jnz 0x7f993e7874a0
+mov edx, dword ptr [rip+0x2130ee]
+test edx, edx
+jz 0x7f993e787468
+cmp eax, 0x100
+jz 0x7f993e78744b
+mov eax, esi
+and eax, 0x7f
+cmp eax, 0x1
+jnz 0x7f993e787548
+mov eax, dword ptr fs:[0x2d0]
+cmp eax, dword ptr [rdi+0x8]
+jz 0x7f993e78752f
+and esi, 0x80
+mov edi, 0x1
+xor eax, eax
+lock cmpxchg dword ptr [r8], edi
+jnz 0x7f993e787663
+cmp dword ptr [r8+0x8], 0x0
+jnz 0x7f993e787510
+mov dword ptr [r8+0x4], 0x1
+jmp 0x7f993e787488
+mov eax, dword ptr fs:[0x2d0]
+add dword ptr [r8+0xc], 0x1
+mov dword ptr [r8+0x8], eax
+xor eax, eax
+add rsp, 0x8
+ret 

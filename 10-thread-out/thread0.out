@@ -1,0 +1,1554 @@
+**************************
+lock cmpxchg dword ptr [rdi], esi
+__pthread_initialize_minimal
+139759965139744(Before): 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+__pthread_initialize_minimal
+10: 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+__pthread_initialize_minimal
+139759965139744(After): 1
+Lock Detected
+lock cmpxchg dword ptr [rdi], esi
+**************************
+lock dec dword ptr [rdi]
+__pthread_initialize_minimal
+139759965139744(Before): 1
+**************************
+lock dec dword ptr [rdi]
+__pthread_initialize_minimal
+139759965139744(After): 0
+Unlocked
+lock dec dword ptr [rdi]
+**************************
+lock cmpxchg dword ptr [rdi], esi
+pthread_create
+139759965139744(Before): 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+pthread_create
+10: 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+pthread_create
+139759965139744(After): 1
+**************************
+lock dec dword ptr [rdi]
+pthread_create
+139759965139744(Before): 1
+**************************
+lock dec dword ptr [rdi]
+pthread_create
+139759965139744(After): 0
+Unlocked
+lock dec dword ptr [rdi]
+**************************
+lock cmpxchg dword ptr [rdi], esi
+pthread_create
+139759965139792(Before): 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+pthread_create
+10: 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+pthread_create
+139759965139792(After): 1
+Lock Detected
+lock cmpxchg dword ptr [rdi], esi
+**************************
+lock dec dword ptr [rdi]
+pthread_create
+139759965139792(Before): 1
+**************************
+lock dec dword ptr [rdi]
+pthread_create
+139759965139792(After): 0
+Unlocked
+lock dec dword ptr [rdi]
+**************************
+lock cmpxchg dword ptr [r8], r13d
+pthread_mutex_lock
+139760290748776(Before): 0
+**************************
+lock cmpxchg dword ptr [r8], r13d
+pthread_mutex_lock
+10: 0
+**************************
+lock cmpxchg dword ptr [r8], r13d
+pthread_mutex_lock
+139760290748776(After): 1
+Lock Detected
+lock cmpxchg dword ptr [r8], r13d
+**************************
+lock dec dword ptr [rdx]
+__pthread_mutex_unlock
+139760290748776(Before): 1
+**************************
+lock dec dword ptr [rdx]
+__pthread_mutex_unlock
+139760290748776(After): 0
+Unlocked
+lock dec dword ptr [rdx]
+**************************
+lock cmpxchg dword ptr [rdi], esi
+malloc
+139759962707808(Before): 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+malloc
+10: 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+malloc
+139759962707808(After): 1
+Lock Detected
+lock cmpxchg dword ptr [rdi], esi
+**************************
+lock dec dword ptr [rdi]
+malloc
+139759962707808(Before): 1
+**************************
+lock dec dword ptr [rdi]
+malloc
+139759962707808(After): 0
+Unlocked
+lock dec dword ptr [rdi]
+**************************
+lock cmpxchg dword ptr [rdi], esi
+pthread_create
+139759965139792(Before): 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+pthread_create
+10: 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+pthread_create
+139759965139792(After): 1
+**************************
+lock dec dword ptr [rdi]
+pthread_create
+139759965139792(Before): 1
+**************************
+lock dec dword ptr [rdi]
+pthread_create
+139759965139792(After): 0
+Unlocked
+lock dec dword ptr [rdi]
+**************************
+lock inc dword ptr [rdi]
+do_clone.constprop.3
+139759965123200(Before): 1
+**************************
+lock inc dword ptr [rdi]
+do_clone.constprop.3
+139759965123200(After): 2
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(Before): 0
+**************************
+mov rax, qword ptr [r15+0x60]
+10: 0
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(After): 1
+**************************
+jnz 0x29048
+139759965139744(Before): 1
+**************************
+jnz 0x29048
+139759965139744(After): 0
+Unlocked
+jnz 0x29048
+**************************
+mov r13, qword ptr [r15+0x1910]
+139759965139792(Before): 0
+**************************
+mov r13, qword ptr [r15+0x1910]
+10: 0
+**************************
+mov r13, qword ptr [r15+0x1910]
+139759965139792(After): 1
+**************************
+vmovdqu ymmword ptr [r15+0xc80], ymm8
+139759965139792(Before): 1
+**************************
+vmovdqu ymmword ptr [r15+0xc80], ymm8
+139759965139792(After): 0
+Unlocked
+vmovdqu ymmword ptr [r15+0xc80], ymm8
+**************************
+lock cmpxchg dword ptr [rdi], esi
+calloc
+139759962707808(Before): 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+calloc
+10: 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+calloc
+139759962707808(After): 1
+**************************
+lock dec dword ptr [rdi]
+calloc
+139759962707808(Before): 1
+**************************
+lock dec dword ptr [rdi]
+calloc
+139759962707808(After): 0
+Unlocked
+lock dec dword ptr [rdi]
+**************************
+mov qword ptr [r15+0x50], rdx
+139759965139792(Before): 0
+**************************
+mov qword ptr [r15+0x50], rdx
+10: 0
+**************************
+mov qword ptr [r15+0x50], rdx
+139759965139792(After): 1
+**************************
+call r11
+139759965139792(Before): 1
+**************************
+call r11
+139759965139792(After): 0
+Unlocked
+call r11
+**************************
+lahf 
+139759965123200(Before): 2
+**************************
+lahf 
+139759965123200(After): 3
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(Before): 0
+**************************
+mov rax, qword ptr [r15+0x60]
+10: 0
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(After): 1
+**************************
+jnz 0x29048
+139759965139744(Before): 1
+**************************
+jnz 0x29048
+139759965139744(After): 0
+Unlocked
+jnz 0x29048
+**************************
+mov qword ptr [r15+0x40], rsp
+139759965139792(Before): 0
+**************************
+mov qword ptr [r15+0x40], rsp
+10: 0
+**************************
+mov qword ptr [r15+0x40], rsp
+139759965139792(After): 1
+**************************
+mov rax, 0xffffffffffffffea
+clone
+139759965139792(Before): 1
+**************************
+mov rax, 0xffffffffffffffea
+clone
+139759965139792(After): 0
+Unlocked
+mov rax, 0xffffffffffffffea
+**************************
+mov rbp, 0x7f1c66f220fb
+139759962707808(Before): 0
+**************************
+mov rbp, 0x7f1c66f220fb
+10: 0
+**************************
+mov rbp, 0x7f1c66f220fb
+139759962707808(After): 1
+**************************
+data16 nop 
+139759962707808(Before): 1
+**************************
+data16 nop 
+139759962707808(After): 0
+Unlocked
+movaps xmmword ptr [rsp+0x90], xmm4
+**************************
+call r11
+139759965139792(Before): 0
+**************************
+call r11
+10: 0
+**************************
+call r11
+139759965139792(After): 1
+**************************
+mov qword ptr [r15+0x78], r10
+139759965139792(Before): 1
+**************************
+mov qword ptr [r15+0x78], r10
+139759965139792(After): 0
+Unlocked
+mov qword ptr [r15+0x78], r10
+**************************
+mov qword ptr [r15+0x40], rsp
+139759965123200(Before): 3
+**************************
+mov qword ptr [r15+0x40], rsp
+139759965123200(After): 4
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(Before): 0
+**************************
+mov rax, qword ptr [r15+0x60]
+10: 0
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(After): 1
+**************************
+jnz 0x29048
+139759965139744(Before): 1
+**************************
+jnz 0x29048
+139759965139744(After): 0
+Unlocked
+jnz 0x29048
+**************************
+seto al
+139759965139792(Before): 0
+**************************
+seto al
+10: 0
+**************************
+seto al
+139759965139792(After): 1
+**************************
+pushfq 
+139759965139792(Before): 1
+**************************
+pushfq 
+139759965139792(After): 0
+Unlocked
+pushfq 
+**************************
+cld 
+139759962707808(Before): 0
+**************************
+cld 
+10: 0
+**************************
+cld 
+139759962707808(After): 1
+**************************
+call qword ptr [r15+0x1940]
+139759962707808(Before): 1
+**************************
+call qword ptr [r15+0x1940]
+139759962707808(After): 0
+Unlocked
+call qword ptr [r15+0x1940]
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(Before): 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+10: 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(After): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(Before): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(After): 0
+Unlocked
+test r13d, 0x2
+**************************
+mov r11, qword ptr [r15+0x70]
+139759965123200(Before): 4
+**************************
+mov r11, qword ptr [r15+0x70]
+139759965123200(After): 5
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(Before): 0
+**************************
+mov rax, qword ptr [r15+0x60]
+10: 0
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(After): 1
+**************************
+jnz 0x29048
+139759965139744(Before): 1
+**************************
+jnz 0x29048
+139759965139744(After): 0
+Unlocked
+jnz 0x29048
+**************************
+mov rsi, 0x1f2
+139759965139792(Before): 0
+**************************
+mov rsi, 0x1f2
+10: 0
+**************************
+mov rsi, 0x1f2
+139759965139792(After): 1
+**************************
+mov rdi, r12
+139759965139792(Before): 1
+**************************
+mov rdi, r12
+139759965139792(After): 0
+Unlocked
+mov rdi, r12
+**************************
+jnz 0x1a7f8
+139759962707808(Before): 0
+**************************
+jnz 0x1a7f8
+10: 0
+**************************
+jnz 0x1a7f8
+139759962707808(After): 1
+**************************
+mov r11, qword ptr [r15+0x1970]
+139759962707808(Before): 1
+**************************
+mov r11, qword ptr [r15+0x1970]
+139759962707808(After): 0
+Unlocked
+mov r11, qword ptr [r15+0x1970]
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(Before): 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+10: 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(After): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(Before): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(After): 0
+Unlocked
+test r13d, 0x2
+**************************
+call qword ptr [r15+0x1940]
+139759965123200(Before): 5
+**************************
+call qword ptr [r15+0x1940]
+139759965123200(After): 6
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(Before): 0
+**************************
+mov rax, qword ptr [r15+0x60]
+10: 0
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(After): 1
+**************************
+jnz 0x29048
+139759965139744(Before): 1
+**************************
+jnz 0x29048
+139759965139744(After): 0
+Unlocked
+jnz 0x29048
+**************************
+nop 
+139759965139792(Before): 0
+**************************
+nop 
+10: 0
+**************************
+nop 
+139759965139792(After): 1
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139792(Before): 1
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139792(After): 0
+Unlocked
+mov rax, qword ptr [r15+0x60]
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759962707808(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759962707808(After): 1
+**************************
+mov r11, qword ptr [r15+0x1970]
+139759962707808(Before): 1
+**************************
+mov r11, qword ptr [r15+0x1970]
+139759962707808(After): 0
+Unlocked
+mov r11, qword ptr [r15+0x1970]
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(Before): 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+10: 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(After): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(Before): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(After): 0
+Unlocked
+test r13d, 0x2
+**************************
+mov word ptr [r15+0xd8], ax
+139759965123200(Before): 6
+**************************
+mov word ptr [r15+0xd8], ax
+139759965123200(After): 7
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(Before): 0
+**************************
+mov rax, qword ptr [r15+0x60]
+10: 0
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(After): 1
+**************************
+jnz 0x29048
+139759965139744(Before): 1
+**************************
+jnz 0x29048
+139759965139744(After): 0
+Unlocked
+jnz 0x29048
+**************************
+nop 
+139759965139792(Before): 0
+**************************
+nop 
+10: 0
+**************************
+nop 
+139759965139792(After): 1
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139792(Before): 1
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139792(After): 0
+Unlocked
+mov rax, qword ptr [r15+0x60]
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759962707808(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759962707808(After): 1
+**************************
+mov r11, qword ptr [r15+0x1970]
+139759962707808(Before): 1
+**************************
+mov r11, qword ptr [r15+0x1970]
+139759962707808(After): 0
+Unlocked
+mov r11, qword ptr [r15+0x1970]
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(Before): 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+10: 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(After): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(Before): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(After): 0
+Unlocked
+test r13d, 0x2
+**************************
+mov word ptr [r15+0xd8], ax
+139759965123200(Before): 7
+**************************
+mov word ptr [r15+0xd8], ax
+139759965123200(After): 8
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(Before): 0
+**************************
+mov rax, qword ptr [r15+0x60]
+10: 0
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(After): 1
+**************************
+jnz 0x29048
+139759965139744(Before): 1
+**************************
+jnz 0x29048
+139759965139744(After): 0
+Unlocked
+jnz 0x29048
+**************************
+nop 
+139759965139792(Before): 0
+**************************
+nop 
+10: 0
+**************************
+nop 
+139759965139792(After): 1
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139792(Before): 1
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139792(After): 0
+Unlocked
+mov rax, qword ptr [r15+0x60]
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759962707808(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759962707808(After): 1
+**************************
+mov r11, qword ptr [r15+0x1970]
+139759962707808(Before): 1
+**************************
+mov r11, qword ptr [r15+0x1970]
+139759962707808(After): 0
+Unlocked
+mov r11, qword ptr [r15+0x1970]
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(Before): 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+10: 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(After): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(Before): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(After): 0
+Unlocked
+test r13d, 0x2
+**************************
+mov word ptr [r15+0xd8], ax
+139759965123200(Before): 8
+**************************
+mov word ptr [r15+0xd8], ax
+139759965123200(After): 9
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(Before): 0
+**************************
+mov rax, qword ptr [r15+0x60]
+10: 0
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(After): 1
+**************************
+jnz 0x29048
+139759965139744(Before): 1
+**************************
+jnz 0x29048
+139759965139744(After): 0
+Unlocked
+jnz 0x29048
+**************************
+nop 
+139759965139792(Before): 0
+**************************
+nop 
+10: 0
+**************************
+nop 
+139759965139792(After): 1
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139792(Before): 1
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139792(After): 0
+Unlocked
+mov rax, qword ptr [r15+0x60]
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759962707808(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759962707808(After): 1
+**************************
+mov r11, qword ptr [r15+0x1970]
+139759962707808(Before): 1
+**************************
+mov r11, qword ptr [r15+0x1970]
+139759962707808(After): 0
+Unlocked
+mov r11, qword ptr [r15+0x1970]
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(Before): 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+10: 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(After): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(Before): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(After): 0
+Unlocked
+test r13d, 0x2
+**************************
+mov word ptr [r15+0xd8], ax
+139759965123200(Before): 9
+**************************
+mov word ptr [r15+0xd8], ax
+139759965123200(After): 10
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(Before): 0
+**************************
+mov rax, qword ptr [r15+0x60]
+10: 0
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139744(After): 1
+**************************
+jnz 0x29048
+139759965139744(Before): 1
+**************************
+jnz 0x29048
+139759965139744(After): 0
+Unlocked
+jnz 0x29048
+**************************
+nop 
+139759965139792(Before): 0
+**************************
+nop 
+10: 0
+**************************
+nop 
+139759965139792(After): 1
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139792(Before): 1
+**************************
+mov rax, qword ptr [r15+0x60]
+139759965139792(After): 0
+Unlocked
+mov rax, qword ptr [r15+0x60]
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759962707808(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759962707808(After): 1
+**************************
+mov r11, qword ptr [r15+0x1970]
+139759962707808(Before): 1
+**************************
+mov r11, qword ptr [r15+0x1970]
+139759962707808(After): 0
+Unlocked
+mov r11, qword ptr [r15+0x1970]
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(Before): 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+10: 0
+**************************
+movdqu xmm6, xmmword ptr [r15+0xc40]
+139759965139792(After): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(Before): 1
+**************************
+test r13d, 0x2
+pthread_setcanceltype
+139759965139792(After): 0
+Unlocked
+test r13d, 0x2
+**************************
+mov word ptr [r15+0xd8], ax
+139759965123200(Before): 10
+**************************
+mov word ptr [r15+0xd8], ax
+139759965123200(After): 11
+**************************
+mov qword ptr [r15+0x18], rdi
+139759958714204(Before): 1
+**************************
+mov qword ptr [r15+0x18], rdi
+10: 0
+**************************
+mov qword ptr [r15+0x18], rdi
+139759958714204(After): 0
+**************************
+lock cmpxchg dword ptr [r13+0x308], r12d
+__pthread_enable_asynccancel
+139759958714952(Before): 0
+**************************
+lock cmpxchg dword ptr [r13+0x308], r12d
+__pthread_enable_asynccancel
+10: 0
+**************************
+lock cmpxchg dword ptr [r13+0x308], r12d
+__pthread_enable_asynccancel
+139759958714952(After): 2
+**************************
+lock cmpxchg qword ptr [rbp], rdi
+pthread_join
+139759955549480(Before): 0
+**************************
+lock cmpxchg qword ptr [rbp], rdi
+pthread_join
+10: 0
+**************************
+lock cmpxchg qword ptr [rbp], rdi
+pthread_join
+139759955549480(After): 139759958714176
+**************************
+lock cmpxchg dword ptr [r13+0x308], r12d
+__pthread_disable_asynccancel
+139759958714952(Before): 2
+**************************
+lock cmpxchg dword ptr [r13+0x308], r12d
+__pthread_disable_asynccancel
+10: 2
+**************************
+lock cmpxchg dword ptr [r13+0x308], r12d
+__pthread_disable_asynccancel
+139759958714952(After): 0
+**************************
+lock bts dword ptr [rdi+0x308], 0x5
+__free_tcb
+139759955548680(Before): 16
+**************************
+lock bts dword ptr [rdi+0x308], 0x5
+__free_tcb
+139759955548680(After): 48
+**************************
+lock cmpxchg dword ptr [rdi], esi
+__deallocate_stack
+139759965139792(Before): 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+__deallocate_stack
+10: 0
+**************************
+lock cmpxchg dword ptr [rdi], esi
+__deallocate_stack
+139759965139792(After): 1
+**************************
+lock dec dword ptr [rdi]
+__deallocate_stack
+139759965139792(Before): 1
+**************************
+lock dec dword ptr [rdi]
+__deallocate_stack
+139759965139792(After): 0
+Unlocked
+lock dec dword ptr [rdi]
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(After): 2
+**************************
+cld 
+139759937662248(Before): 0
+**************************
+cld 
+10: 0
+**************************
+cld 
+139759937662248(After): 139759958714176
+**************************
+lea rsi, ptr [r12]
+139759958714952(Before): 2
+**************************
+lea rsi, ptr [r12]
+10: 2
+**************************
+lea rsi, ptr [r12]
+139759958714952(After): 0
+**************************
+mov rdx, 0x4
+139759937661448(Before): 16
+**************************
+mov rdx, 0x4
+139759937661448(After): 48
+**************************
+mov r10d, dword ptr [r13+0x10]
+__pthread_mutex_unlock
+139759965139792(Before): 0
+**************************
+mov r10d, dword ptr [r13+0x10]
+__pthread_mutex_unlock
+10: 0
+**************************
+mov r10d, dword ptr [r13+0x10]
+__pthread_mutex_unlock
+139759965139792(After): 1
+**************************
+call qword ptr [r15+0x1940]
+139759965139792(Before): 1
+**************************
+call qword ptr [r15+0x1940]
+139759965139792(After): 0
+Unlocked
+call qword ptr [r15+0x1940]
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(After): 2
+**************************
+cld 
+139759919775016(Before): 0
+**************************
+cld 
+10: 0
+**************************
+cld 
+139759919775016(After): 139759958714176
+**************************
+lea rsi, ptr [r12]
+139759958714952(Before): 2
+**************************
+lea rsi, ptr [r12]
+10: 2
+**************************
+lea rsi, ptr [r12]
+139759958714952(After): 0
+**************************
+mov rdx, 0x4
+139759919774216(Before): 16
+**************************
+mov rdx, 0x4
+139759919774216(After): 48
+**************************
+mov r10d, dword ptr [r13+0x10]
+__pthread_mutex_unlock
+139759965139792(Before): 0
+**************************
+mov r10d, dword ptr [r13+0x10]
+__pthread_mutex_unlock
+10: 0
+**************************
+mov r10d, dword ptr [r13+0x10]
+__pthread_mutex_unlock
+139759965139792(After): 1
+**************************
+call qword ptr [r15+0x1940]
+139759965139792(Before): 1
+**************************
+call qword ptr [r15+0x1940]
+139759965139792(After): 0
+Unlocked
+call qword ptr [r15+0x1940]
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(After): 2
+**************************
+cld 
+139759901887784(Before): 0
+**************************
+cld 
+10: 0
+**************************
+cld 
+139759901887784(After): 139759958714176
+**************************
+lea rsi, ptr [r12]
+139759958714952(Before): 2
+**************************
+lea rsi, ptr [r12]
+10: 2
+**************************
+lea rsi, ptr [r12]
+139759958714952(After): 0
+**************************
+mov rdx, 0x4
+139759901886984(Before): 16
+**************************
+mov rdx, 0x4
+139759901886984(After): 48
+**************************
+mov r10d, dword ptr [r13+0x10]
+__pthread_mutex_unlock
+139759965139792(Before): 0
+**************************
+mov r10d, dword ptr [r13+0x10]
+__pthread_mutex_unlock
+10: 0
+**************************
+mov r10d, dword ptr [r13+0x10]
+__pthread_mutex_unlock
+139759965139792(After): 1
+**************************
+call qword ptr [r15+0x1940]
+139759965139792(Before): 1
+**************************
+call qword ptr [r15+0x1940]
+139759965139792(After): 0
+Unlocked
+call qword ptr [r15+0x1940]
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(After): 2
+**************************
+cld 
+139759884000552(Before): 0
+**************************
+cld 
+10: 0
+**************************
+cld 
+139759884000552(After): 139759958714176
+**************************
+lea rsi, ptr [r12]
+139759958714952(Before): 2
+**************************
+lea rsi, ptr [r12]
+10: 2
+**************************
+lea rsi, ptr [r12]
+139759958714952(After): 0
+**************************
+mov rdx, 0x4
+139759883999752(Before): 16
+**************************
+mov rdx, 0x4
+139759883999752(After): 48
+**************************
+mov r10d, dword ptr [r13+0x10]
+__pthread_mutex_unlock
+139759965139792(Before): 0
+**************************
+mov r10d, dword ptr [r13+0x10]
+__pthread_mutex_unlock
+10: 0
+**************************
+mov r10d, dword ptr [r13+0x10]
+__pthread_mutex_unlock
+139759965139792(After): 1
+**************************
+mov word ptr [r15+0xd8], ax
+139759958714204(Before): 1
+**************************
+mov word ptr [r15+0xd8], ax
+10: 0
+**************************
+mov word ptr [r15+0xd8], ax
+139759958714204(After): 0
+**************************
+lock cmpxchg dword ptr [rbp], esi
+_IO_str_seekoff
+139759962707808(Before): 0
+**************************
+lock cmpxchg dword ptr [rbp], esi
+_IO_str_seekoff
+10: 0
+**************************
+lock cmpxchg dword ptr [rbp], esi
+_IO_str_seekoff
+139759962707808(After): 1
+**************************
+lock dec dword ptr [rbp]
+_IO_str_seekoff
+139759962707808(Before): 1
+**************************
+lock dec dword ptr [rbp]
+_IO_str_seekoff
+139759962707808(After): 0
+Unlocked
+lock dec dword ptr [rbp]
+**************************
+mov word ptr [r15+0xd8], ax
+139759958714204(Before): 1
+**************************
+mov word ptr [r15+0xd8], ax
+10: 0
+**************************
+mov word ptr [r15+0xd8], ax
+139759958714204(After): 0
+**************************
+seto al
+139759965139792(Before): 1
+**************************
+seto al
+139759965139792(After): 0
+Unlocked
+seto al
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(After): 2
+**************************
+cld 
+139759866113320(Before): 0
+**************************
+cld 
+10: 0
+**************************
+cld 
+139759866113320(After): 139759958714176
+**************************
+mov qword ptr [r15+0x18], r9
+139759958714952(Before): 2
+**************************
+mov qword ptr [r15+0x18], r9
+10: 2
+**************************
+mov qword ptr [r15+0x18], r9
+139759958714952(After): 0
+**************************
+mov rdx, 0x4
+139759866112520(Before): 16
+**************************
+mov rdx, 0x4
+139759866112520(After): 48
+**************************
+cmp r14, qword ptr [r15+0x1928]
+139759965139792(Before): 0
+**************************
+cmp r14, qword ptr [r15+0x1928]
+10: 0
+**************************
+cmp r14, qword ptr [r15+0x1928]
+139759965139792(After): 1
+**************************
+call r11
+139759962707808(Before): 0
+**************************
+call r11
+10: 0
+**************************
+call r11
+139759962707808(After): 1
+**************************
+seto al
+139759962707808(Before): 1
+**************************
+seto al
+139759962707808(After): 0
+Unlocked
+seto al
+**************************
+seto al
+139759965139792(Before): 1
+**************************
+seto al
+139759965139792(After): 0
+Unlocked
+seto al
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(After): 2
+**************************
+cld 
+139759848226088(Before): 0
+**************************
+cld 
+10: 0
+**************************
+cld 
+139759848226088(After): 139759958714176
+**************************
+mov qword ptr [r15+0x18], r9
+139759958714952(Before): 2
+**************************
+mov qword ptr [r15+0x18], r9
+10: 2
+**************************
+mov qword ptr [r15+0x18], r9
+139759958714952(After): 0
+**************************
+mov rdx, 0x4
+139759848225288(Before): 16
+**************************
+mov rdx, 0x4
+139759848225288(After): 48
+**************************
+cmp r14, qword ptr [r15+0x1928]
+139759965139792(Before): 0
+**************************
+cmp r14, qword ptr [r15+0x1928]
+10: 0
+**************************
+cmp r14, qword ptr [r15+0x1928]
+139759965139792(After): 1
+**************************
+call r11
+139759962707808(Before): 0
+**************************
+call r11
+10: 0
+**************************
+call r11
+139759962707808(After): 1
+**************************
+seto al
+139759962707808(Before): 1
+**************************
+seto al
+139759962707808(After): 0
+Unlocked
+seto al
+**************************
+seto al
+139759965139792(Before): 1
+**************************
+seto al
+139759965139792(After): 0
+Unlocked
+seto al
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(After): 2
+**************************
+cld 
+139759830338856(Before): 0
+**************************
+cld 
+10: 0
+**************************
+cld 
+139759830338856(After): 139759958714176
+**************************
+mov qword ptr [r15+0x18], r9
+139759958714952(Before): 2
+**************************
+mov qword ptr [r15+0x18], r9
+10: 2
+**************************
+mov qword ptr [r15+0x18], r9
+139759958714952(After): 0
+**************************
+mov rdx, 0x4
+139759830338056(Before): 16
+**************************
+mov rdx, 0x4
+139759830338056(After): 48
+**************************
+cmp r14, qword ptr [r15+0x1928]
+139759965139792(Before): 0
+**************************
+cmp r14, qword ptr [r15+0x1928]
+10: 0
+**************************
+cmp r14, qword ptr [r15+0x1928]
+139759965139792(After): 1
+**************************
+call r11
+139759962707808(Before): 0
+**************************
+call r11
+10: 0
+**************************
+call r11
+139759962707808(After): 1
+**************************
+seto al
+139759962707808(Before): 1
+**************************
+seto al
+139759962707808(After): 0
+Unlocked
+seto al
+**************************
+seto al
+139759965139792(Before): 1
+**************************
+seto al
+139759965139792(After): 0
+Unlocked
+seto al
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(After): 2
+**************************
+cld 
+139759812451624(Before): 0
+**************************
+cld 
+10: 0
+**************************
+cld 
+139759812451624(After): 139759958714176
+**************************
+mov qword ptr [r15+0x18], r9
+139759958714952(Before): 2
+**************************
+mov qword ptr [r15+0x18], r9
+10: 2
+**************************
+mov qword ptr [r15+0x18], r9
+139759958714952(After): 0
+**************************
+mov rdx, 0x4
+139759812450824(Before): 16
+**************************
+mov rdx, 0x4
+139759812450824(After): 48
+**************************
+cmp r14, qword ptr [r15+0x1928]
+139759965139792(Before): 0
+**************************
+cmp r14, qword ptr [r15+0x1928]
+10: 0
+**************************
+cmp r14, qword ptr [r15+0x1928]
+139759965139792(After): 1
+**************************
+call r11
+139759962707808(Before): 0
+**************************
+call r11
+10: 0
+**************************
+call r11
+139759962707808(After): 1
+**************************
+seto al
+139759962707808(Before): 1
+**************************
+seto al
+139759962707808(After): 0
+Unlocked
+seto al
+**************************
+seto al
+139759965139792(Before): 1
+**************************
+seto al
+139759965139792(After): 0
+Unlocked
+seto al
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(Before): 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+10: 0
+**************************
+mov rsp, qword ptr [r15+0x18a8]
+139759958714952(After): 2
+**************************
+cld 
+139759794564392(Before): 0
+**************************
+cld 
+10: 0
+**************************
+cld 
+139759794564392(After): 139759958714176
+**************************
+mov qword ptr [r15+0x18], r9
+139759958714952(Before): 2
+**************************
+mov qword ptr [r15+0x18], r9
+10: 2
+**************************
+mov qword ptr [r15+0x18], r9
+139759958714952(After): 0
+**************************
+mov rdx, 0x4
+139759794563592(Before): 16
+**************************
+mov rdx, 0x4
+139759794563592(After): 48
+**************************
+cmp r14, qword ptr [r15+0x1928]
+139759965139792(Before): 0
+**************************
+cmp r14, qword ptr [r15+0x1928]
+10: 0
+**************************
+cmp r14, qword ptr [r15+0x1928]
+139759965139792(After): 1
+**************************
+call r11
+139759962707808(Before): 0
+**************************
+call r11
+10: 0
+**************************
+call r11
+139759962707808(After): 1
+**************************
+seto al
+139759962707808(Before): 1
+**************************
+seto al
+139759962707808(After): 0
+Unlocked
+seto al
+**************************
+seto al
+139759965139792(Before): 1
+**************************
+seto al
+139759965139792(After): 0
+Unlocked
+seto al
+**************************
+mov word ptr [r15+0xd8], ax
+139759958714204(Before): 1
+**************************
+mov word ptr [r15+0xd8], ax
+10: 0
+**************************
+mov word ptr [r15+0xd8], ax
+139759958714204(After): 0
+**************************
+mov qword ptr [r15+0xa0], rcx
+139760290748776(Before): 0
+**************************
+mov qword ptr [r15+0xa0], rcx
+10: 0
+**************************
+mov qword ptr [r15+0xa0], rcx
+139760290748776(After): 1
+**************************
+mov rdx, 0x4
+139760290748776(Before): 1
+**************************
+mov rdx, 0x4
+139760290748776(After): 0
+Unlocked
+mov rdx, 0x4
+**************************
+mov word ptr [r15+0xd8], ax
+139759958714204(Before): 1
+**************************
+mov word ptr [r15+0xd8], ax
+10: 0
+**************************
+mov word ptr [r15+0xd8], ax
+139759958714204(After): 0
+**************************
+lock cmpxchg dword ptr [r12], esi
+_IO_adjust_column
+139759962716640(Before): 0
+**************************
+lock cmpxchg dword ptr [r12], esi
+_IO_adjust_column
+10: 0
+**************************
+lock cmpxchg dword ptr [r12], esi
+_IO_adjust_column
+139759962716640(After): 1
+**************************
+lock dec dword ptr [r12]
+_IO_adjust_column
+139759962716640(Before): 1
+**************************
+lock dec dword ptr [r12]
+_IO_adjust_column
+139759962716640(After): 0
+Unlocked
+lock dec dword ptr [r12]

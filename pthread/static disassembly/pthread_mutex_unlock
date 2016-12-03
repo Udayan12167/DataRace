@@ -1,0 +1,61 @@
+mov esi, dword ptr [rdi+0x10]
+mov rdx, rdi
+mov eax, esi
+mov r8d, esi
+and eax, 0x17f
+and r8d, 0x7c
+jnz 0x7fa1724817f8
+test eax, eax
+jnz 0x7fa172481802
+mov dword ptr [rdx+0x8], 0x0
+sub dword ptr [rdx+0xc], 0x1
+and esi, 0x80
+lock dec dword ptr [rdx]
+jnz 0x7fa172481895
+mov eax, r8d
+ret 
+mov esi, 0x1
+jmp 0x7fa17247bf8f
+cmp eax, 0x100
+jnz 0x7fa172481814
+and esi, 0x80
+jmp 0x7fa172487fe0
+mov ecx, esi
+and ecx, 0x7f
+cmp ecx, 0x1
+jnz 0x7fa172481833
+mov eax, dword ptr fs:[0x2d0]
+cmp dword ptr [rdi+0x8], eax
+jz 0x7fa172481852
+mov r8d, 0x1
+jmp 0x7fa1724817f4
+cmp ecx, 0x3
+jz 0x7fa1724817da
+cmp eax, 0x2
+jnz 0x7fa17248185a
+mov eax, dword ptr fs:[0x2d0]
+cmp dword ptr [rdi+0x8], eax
+jnz 0x7fa17248182b
+cmp dword ptr [rdi], 0x0
+jnz 0x7fa1724817da
+nop 
+jmp 0x7fa17248182b
+sub dword ptr [rdi+0x4], 0x1
+jz 0x7fa1724817da
+jmp 0x7fa1724817f4
+lea rcx, ptr [rip+0x73ef]
+push rax
+lea rsi, ptr [rip+0x73a7]
+lea rdi, ptr [rip+0x73b8]
+mov edx, 0x57
+call 0x7fa17247b660
+mov eax, dword ptr [rip+0x2bc00a]
+test eax, eax
+jnz 0x7fa17218a070
+xor eax, eax
+ret 
+nop dword ptr [rax], eax
+mov rax, qword ptr [rip+0x2bbf59]
+ror rax, 0x11
+xor rax, qword ptr fs:[0x30]
+jmp rax

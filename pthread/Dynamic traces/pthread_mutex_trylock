@@ -1,0 +1,48 @@
+push r14
+push r13
+push r12
+push rbp
+push rbx
+mov rbx, rdi
+mov ebp, dword ptr fs:[0x2d0]
+mov edx, dword ptr [rdi+0x10]
+mov eax, edx
+and eax, 0x17f
+cmp eax, 0x23
+jnle 0x7f76edb71730
+cmp eax, 0x20
+jnl 0x7f76edb7174e
+cmp eax, 0x3
+jnle 0x7f76edb71800
+cmp eax, 0x2
+jnl 0x7f76edb717a8
+test eax, eax
+nop 
+jnz 0x7f76edb718d0
+mov eax, dword ptr [rip+0x212e38]
+test eax, eax
+jz 0x7f76edb717a8
+xor eax, eax
+mov edx, 0x1
+lock cmpxchg dword ptr [rbx], edx
+test eax, eax
+jz 0x7f76edb71910
+mov r12d, 0x10
+pop rbx
+pop rbp
+mov eax, r12d
+pop r12
+pop r13
+pop r14
+ret 
+mov dword ptr [rbx+0x8], ebp
+add dword ptr [rbx+0xc], 0x1
+xor r12d, r12d
+jmp 0x7f76edb717c1
+pop rbx
+pop rbp
+mov eax, r12d
+pop r12
+pop r13
+pop r14
+ret 

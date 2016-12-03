@@ -1,0 +1,12 @@
+Lock Detected
+lock cmpxchg dword ptr [r13], esi
+Unlocked
+lock dec dword ptr [r13]
+Lock Detected
+lock cmpxchg dword ptr [r8], r13d
+Unlocked
+lock dec dword ptr [rdx]
+Lock Detected
+lock cmpxchg dword ptr [r8], r13d
+Unlocked
+lock dec dword ptr [rdx]

@@ -1,0 +1,11 @@
+sub rsp, 0x18
+mov edx, 0x1
+xor eax, eax
+mov dword ptr [rsp+0xc], 0x0
+lock cmpxchg dword ptr [rdi], edx
+jz 0x7fc3d211e1c4
+mov esi, eax
+mov dword ptr [rsp+0xc], eax
+call 0x7fc3d211e550
+add rsp, 0x18
+ret 
